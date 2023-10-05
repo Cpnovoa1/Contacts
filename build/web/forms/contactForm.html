@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contacts Management</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <center><br><h1>Contact Form</h1></center>
+        <main>
+            <form action="../jsps/addContact.jsp" id="form1">
+                <div class="row">
+                    <label class="label">ID: </label>
+                    <input type="text" id="id" name="id" class="input">
+                </div>
+                <div class="row">
+                    <label class="label">Name: </label>
+                    <input type="text" id="name" name="name" class="input">
+                </div>
+                <div class="row">
+                    <label class="label">Phone Number: </label>
+                    <input type="text" id="phoneNumber" name="phoneNumber" class="input">
+                </div>
+                <div class="row">
+                    <label class="label">Description: </label>
+                    <input type="text" id="description" name="description" class="input">
+                </div>
+                <center><p>
+                        <input type="button" id="save" name="save" value="Save">
+                    </p></center>
+            </form>
+        </main>
+        <a href="../index.html" class="return">Return</a>
+        <footer class="footer">Christian Novoa</footer>
+        <script src="../js/script.js"></script>
+    </body>
+</html>
